@@ -6,3 +6,133 @@ Green: #00B172
 White: #FFF
 
 */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.green-logo {
+  height: 2em;
+  padding: 0.2em;
+  padding-left: 1em;
+}
+.logos {
+  height: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  height: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+.app {
+  height: 22em;
+  padding: 3em 0;
+}
+.nav-box {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  overflow: auto;
+}
+nav {
+  position: fixed;
+  padding: 0.2em;
+}
+.nav-bar-ul {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-bar-ul li {
+  list-style-type: none;
+  text-align: center;
+}
+.nav-bar-ul a {
+  display: flex;
+  width: 25%;
+  float: left;
+  list-style: none;
+  color: black;
+  text-decoration: none;
+  font-size: 0.8em;
+  padding: 0.7em;
+  padding-right: 2em;
+}
+.header {
+  background: url("/images/landing.jpg") center no-repeat;
+  background-position: center center;
+  /* background-attachment: fixed; */
+  background-size: cover;
+  background-repeat: space;
+  font-weight: lighter;
+  font-size: 100%;
+  color: white;
+  text-align: center;
+  padding: 110px;
+  padding-top: 10em;
+}
+.header h1 {
+  font-size: 2em;
+  font-weight: normal;
+}
+.feature-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.feature-list-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.feature-list-boxes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1.5em;
+  width: 50%;
+}
+
+.feature-list-boxes h3 {
+  color: #00b172;
+  font-size: 1em;
+  text-align: center;
+}
+
+.feature-list-boxes p {
+  width: 100%;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.green-section {
+  background-color: #00b172;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  padding-right: 1em;
+  padding-left: 1em;
+  display: flex;
+}
+.green-text {
+  width: 80%;
+}
+.green-section h2 {
+  display: flex;
+  text-decoration: underline;
+  text-underline-position: under;
+  padding-bottom: 1.5em;
+}
+.green-section p {
+  font-weight: lighter;
+  width: 65%;
+}
